@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins';
+	padding: 30px 100px;
+	user-select: none;
+}
+header .logo {
+	font-family: 'Kanit';
+	display: flex;
+	color: orange;
+}
+header .logo h2 {
+	transform: translateY(-50px);
+	font-size: 120px;
+}
+header .logo .title {
+	font-size: 30px;
+	line-height: 50px;
+}
+#version {
+	color: #333;
+	position: absolute;
+	font-weight: bold;
+	font-style: italic;
+	left: 390px;
+	top: 85px;
+}
+#downloads {
+	width: 140px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+#downloads h4 {
+	color: white;
+	font-weight: normal;
+	padding: 3px 7px;
+	background-color: #222;
+	border-radius: 5px 0 0 5px;
+}
+#downloads p {
+	border-radius: 0 5px 5px 0;
+	padding: 3px 7px;
+	color: white;
+	text-shadow: 1px 1px 0 black;
+	background-color: rgb(16, 204, 16);
+}
+#head-title {
+	font-family: 'Kanit';
+	margin-bottom: 3px;
+}
+nav {
+	margin-top: -60px;
+	position: absolute;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+}
+nav ul a {
+	padding: 2px 5px;
+	width: 200px;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	background-color: transparent;
+	transition: background-color .125s;
+}
+nav ul a li i {
+	opacity: 0;
+	float: right;
+	margin-top: 4px;
+	margin-left: -5px;
+}
+nav ul a:hover {
+	background-color: #444;
+	color: white;
+}
+nav ul a:hover li i {
+	opacity: 1;
+}
+main {
+	margin-top: -60px;
+	margin-left: 220px;
+	border-left: 2px solid #222;
+	padding: 20px;
+	padding-left: 15px;
+	width: 800px;
+}
+main p {
+	font-family: 'Trebuchet MS', monospace;
+	font-size: 15px;
+	line-height: 22px;
+}
+main ul {
+	margin-left: 50px;
+}
+main li {
+	color: #888;
+	font-family: 'Kanit', monospace;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+main li span {
+	font-size: 16px;
+	color: black;
+}
+
+footer {
+	font-size: 14px;
+	color: #888;
+	margin-top: 60px;
+	text-align: center;
+}
